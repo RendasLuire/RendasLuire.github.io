@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mi primer post"
-date: 2025-07-20 21:00:00 -0600
+date: 2025-07-19 12:00:00 -0600
 categories: aprendizaje
 ---
 
