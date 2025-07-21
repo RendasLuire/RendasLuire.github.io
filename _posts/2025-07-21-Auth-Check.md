@@ -18,14 +18,14 @@ First of all, we need to know which authorization object we want to check. Here'
     ID 'ACTVT'  FIELD '03'.
 ```
 
-This is the syntax of the function. In this example, we’re checking whether the current user has authorization for a specific `CARRID`. After executing the check, the system sets the sy-subrc variable with the result, which we can use to handle different cases:
+This is the syntax of the function. In this example, we’re checking whether the current user has authorization for a specific `CARRID`. After executing the check, the system sets the `sy-subrc` variable with the result, which we can use to handle different cases:
 
 | sy-subrc  | Meaning                       |
 | --------- | ----------------------------- |
 | 0         | User is authorized.          |
 | 4         | User is not authorized.     |
 
-The ACTVT field refers to an activity code from the TACT table in the SAP database.
+The `ACTVT` field refers to an activity code from the `TACT` table in the SAP database.
 
 You can also validate multiple fields like this:
 
@@ -43,7 +43,7 @@ You can also validate multiple fields like this:
 
 At first, I thought I could validate the user's authorization after fetching the data—just filter the result table before displaying the report. But... it’s actually better to check the authorization before querying the data—right when the user tries to run the report.
 
-In code, this means placing the AUTHORITY-CHECK inside the AT SELECTION-SCREEN block. For example:
+In code, this means placing the `AUTHORITY-CHECK` inside the `AT SELECTION-SCREEN` block. For example:
 
 ```abap
 at selection-screen.
@@ -60,5 +60,5 @@ IF sy-subrc <> 0.
   ENDIF.
 ```
 
-> :memo: **Take note**
+> **Take note**
 > The field values must be in uppercase to be validated correctly!
