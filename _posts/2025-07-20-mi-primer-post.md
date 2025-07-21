@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Mi primer post"
+title: "Test post"
 date: 2025-07-19 12:00:00 -0600
-categories: aprendizaje
+categories: learning
 ---
 
-Hoy comencé mi blog sobre programación. ¡Estoy emocionado!
+I'm only test post this function.

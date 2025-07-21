@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Mi blog
+title: My mind
 ---
 
-Bienvenido a mi blog
+Welcome to my mind.
