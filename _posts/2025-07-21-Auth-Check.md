@@ -7,7 +7,7 @@ categories: Learning daily SAP
 
 I had to configure a validation for what to show in a specific report. To perform this validation, I needed to use the `AUTHORITY-CHECK` function. But how does this function actually work?
 
-## How to Use the `AUTHORITY-CHECK` Function
+## How to Use the `AUTHORITY-CHECK` Function?
 
 First of all, we need to know which authorization object we want to check. Here's a basic example:
 
