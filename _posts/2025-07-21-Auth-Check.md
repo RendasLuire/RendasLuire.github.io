@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Auth Check function SAP" 
-date: 2025-07-21 12:00:00 -0600
+date: 2025-07-21 10:00:00 -0600
 categories: Learning daily SAP
 ---
 
